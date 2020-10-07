@@ -13,7 +13,7 @@ class Plot extends Component {
     }
 
    async componentDidMount(){
-        let res = await axios.get('');
+        let res = await axios.get('https://backend-plot-numbers.herokuapp.com/');
         let data = res.data;
 
         console.log(data);
